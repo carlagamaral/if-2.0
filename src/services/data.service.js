@@ -46,6 +46,7 @@ function parseData(data) {
 	});
 
 	const parsedData = [];
+	// eslint-disable-next-line no-restricted-syntax
 	for (const campus of intermediateRepresentation) {
 		let region = parsedData.find(
 			(countryRegion) => countryRegion.name === campus.region

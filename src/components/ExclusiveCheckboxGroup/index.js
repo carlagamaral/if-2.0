@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Checkbox from '../Checkbox';
-import { CheckboxWrapper } from './styles';
+import CheckboxWrapper from './styles';
 
 const ExclusiveCheckboxGroup = ({
 	options,

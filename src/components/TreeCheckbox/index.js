@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-param-reassign */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Checkbox from '../Checkbox';
-import { WrapperTreeCheckbox } from './styles';
+import WrapperTreeCheckbox from './styles';
 
 const TreeCheckbox = ({
 	checkedData,

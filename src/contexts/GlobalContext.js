@@ -16,6 +16,7 @@ export function GlobalProvider(props) {
 		};
 	}, [state]);
 
+	// eslint-disable-next-line react/jsx-props-no-spreading
 	return <GlobalContext.Provider value={value} {...props} />;
 }
 

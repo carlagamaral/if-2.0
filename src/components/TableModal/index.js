@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Modal from '../Modal';
 import { useGlobal } from '../../contexts/GlobalContext';
 import { COLORS } from '../../utils/categoriesHelper';
-import { TableWrapper } from './styles';
+import TableWrapper from './styles';
 
 const { DANCE_COLOR, MUSIC_COLOR, THEATER_COLOR, VISUAL_ARTS_COLOR } = COLORS;
 
@@ -37,6 +37,7 @@ const TableModal = ({ setShowTableModal }) => {
 		S: 'green',
 	};
 
+	// eslint-disable-next-line consistent-return
 	const getTdColor = (index, value) => {
 		const isNumber = Number.isInteger(Number(value.trim()));
 		if (isNumber) {

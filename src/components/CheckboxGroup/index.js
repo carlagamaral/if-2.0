@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Checkbox from '../Checkbox';
-import { CheckboxGroupWrapper } from './styles';
+import CheckboxGroupWrapper from './styles';
 
 const CheckboxGroup = ({ itemIds, onClick, startChecked }) => {
 	const [checkboxes, setCheckboxes] = useState([]);

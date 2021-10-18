@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const WrapperCheckbox = styled.fieldset`
+const WrapperCheckbox = styled.fieldset`
 	font-size: 26px;
 	border: none;
 	padding: 0;
@@ -9,3 +9,5 @@ export const WrapperCheckbox = styled.fieldset`
 		display: none;
 	}
 `;
+
+export default WrapperCheckbox;

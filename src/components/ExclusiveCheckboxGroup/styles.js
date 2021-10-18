@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CheckboxWrapper = styled.div`
+const CheckboxWrapper = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 50px;
@@ -8,3 +8,5 @@ export const CheckboxWrapper = styled.div`
 	text-align: center;
 	width: 100%;
 `;
+
+export default CheckboxWrapper;

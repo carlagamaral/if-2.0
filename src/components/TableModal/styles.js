@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TableWrapper = styled.div`
+const TableWrapper = styled.div`
 	table {
 		border: 1px solid #ccc;
 		width: 100%;
@@ -33,3 +33,5 @@ export const TableWrapper = styled.div`
 		font-size: 18px;
 	}
 `;
+
+export default TableWrapper;

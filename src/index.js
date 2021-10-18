@@ -16,8 +16,9 @@ const LoginWrapper = () => {
 	return (
 		<React.StrictMode>
 			<GlobalProvider>
-				{isAuthenticated && <App setIsAuthenticated={setIsAuthenticated} />}
-				{!isAuthenticated && <Login setIsAuthenticated={setIsAuthenticated} />}
+				<App setIsAuthenticated={setIsAuthenticated} />
+				{/* {isAuthenticated && <App setIsAuthenticated={setIsAuthenticated} />}
+				{!isAuthenticated && <Login setIsAuthenticated={setIsAuthenticated} />} */}
 			</GlobalProvider>
 		</React.StrictMode>
 	);

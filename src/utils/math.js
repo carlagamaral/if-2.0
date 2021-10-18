@@ -1,4 +1,4 @@
-export const minMax = (list) => {
+const minMax = (list) => {
 	if (!list.length) {
 		throw new Error('List cannot be empty');
 	}
@@ -11,3 +11,5 @@ export const minMax = (list) => {
 
 	return list.reduce(buildMaxAndMin, maxAndMinIntegers);
 };
+
+export default minMax;

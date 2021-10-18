@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import * as topojson from 'topojson-client';
 import * as d3 from 'd3';
 import BrazilGeometry from '../../data/geometries/Brasil.topo.json';
-import { minMax } from '../../utils/math';
+import minMax from '../../utils/math';
 import { STATE_DEFAULT_COLOR } from '../../utils/categoriesHelper';
 import CustomSvg from './styles';
 
@@ -49,7 +49,7 @@ const Map = ({
 			const scale = 0.9 / Math.max(dx / width, dy / height);
 			const translate = [width / 2 - scale * posX, height / 2 - scale * posY];
 
-			svg
+			return svg
 				.transition()
 				.duration(zoomDuration)
 				.attr('transform', `translate(${translate})scale(${scale})`);
@@ -151,6 +151,7 @@ const Map = ({
 			.attr('class', 'sphere')
 			.attr('d', path);
 
+		// eslint-disable-next-line no-restricted-syntax
 		for (const feature of features) {
 			mapSvgGroup
 				.append('path')

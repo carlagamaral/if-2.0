@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const LoginWrapper = styled.div`
+const LoginWrapper = styled.div`
 	width: 50%;
 	height: 96vh;
 	float: left;
@@ -76,3 +76,5 @@ export const LoginWrapper = styled.div`
 		}
 	}
 `;
+
+export default LoginWrapper;

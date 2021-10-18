@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CheckboxItem } from './CheckoboxItem';
-import { WrapperCheckbox } from './styles';
+import WrapperCheckbox from './styles';
 
 const Checkbox = ({
 	click,

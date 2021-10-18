@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { LoginWrapper } from './styles';
+import LoginWrapper from './styles';
 import LoginLogo from '../../assets/mapeamento-final.png';
 
 import auth from '../../services/auth.service';

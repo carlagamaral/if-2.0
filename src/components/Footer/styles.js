@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FooterWrapper = styled.div`
+const FooterWrapper = styled.div`
 	background-color: #bfb5b5;
 	width: 100%;
 	display: flex;
@@ -17,3 +17,5 @@ export const FooterWrapper = styled.div`
 		cursor: pointer;
 	}
 `;
+
+export default FooterWrapper;

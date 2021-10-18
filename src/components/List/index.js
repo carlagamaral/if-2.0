@@ -8,7 +8,7 @@ import { ListWrapper, TreeWrapper } from './styles';
 const List = ({ checkedOptions, setSelectedLevel, setCheckedOptions }) => {
 	const [selectedSearchType, setSelectedSearchType] = useState(SEARCH_TYPE[0]);
 
-	const [checkedData, setCheckedData] = useState(null);
+	const [checkedData] = useState(null);
 
 	useEffect(() => {
 		setSelectedLevel(NODE_LEVELS[selectedSearchType]);
