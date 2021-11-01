@@ -11,14 +11,14 @@ export const mapIfDataToPoints = (ifData) => {
 		const points = campi.map((campus) => ({
 			categories: [
 				{
+					color: COLORS['Artes Visuais'],
+					counter: parseInt(campus.teachers.visualArts, 10),
+					description: 'Artes Visuais',
+				},
+				{
 					color: COLORS['Música'],
 					counter: parseInt(campus.teachers.music, 10),
 					description: 'Música',
-				},
-				{
-					color: COLORS.Teatro,
-					counter: parseInt(campus.teachers.theater, 10),
-					description: 'Teatro',
 				},
 				{
 					color: COLORS['Dança'],
@@ -26,9 +26,9 @@ export const mapIfDataToPoints = (ifData) => {
 					description: 'Dança',
 				},
 				{
-					color: COLORS['Artes Visuais'],
-					counter: parseInt(campus.teachers.visualArts, 10),
-					description: 'Artes Visuais',
+					color: COLORS.Teatro,
+					counter: parseInt(campus.teachers.theater, 10),
+					description: 'Teatro',
 				},
 			],
 			coords: [parseFloat(campus.longitude), parseFloat(campus.latitude)],
@@ -59,8 +59,8 @@ export const buildChartData = (
 				'Artes Visuais': selectedSubjects.includes('Artes Visuais')
 					? node.teachers.visualArts
 					: 0,
-				Dança: selectedSubjects.includes('Dança') ? node.teachers.dance : 0,
 				Música: selectedSubjects.includes('Música') ? node.teachers.music : 0,
+				Dança: selectedSubjects.includes('Dança') ? node.teachers.dance : 0,
 				Teatro: selectedSubjects.includes('Teatro') ? node.teachers.theater : 0,
 			};
 		}
@@ -86,8 +86,8 @@ export const buildChartData = (
 			'Artes Visuais':
 				parseInt(obj['Artes Visuais'], 10) +
 				parseInt(current['Artes Visuais'], 10),
-			Dança: parseInt(obj['Dança'], 10) + parseInt(current['Dança'], 10),
 			Música: parseInt(obj['Música'], 10) + parseInt(current['Música'], 10),
+			Dança: parseInt(obj['Dança'], 10) + parseInt(current['Dança'], 10),
 			Teatro: parseInt(obj.Teatro, 10) + parseInt(current.Teatro, 10),
 		}));
 
@@ -128,7 +128,6 @@ export const filterOnlyIntegrated = (node, currentLevel, finalLevel) => {
 };
 
 export const findValid = (node, wantedNames, currentLevel, desiredLevel) => {
-	console.log('indValid', (node, wantedNames, currentLevel, desiredLevel));
 	if (currentLevel < desiredLevel) {
 		const children = node.children
 			.map((child) =>

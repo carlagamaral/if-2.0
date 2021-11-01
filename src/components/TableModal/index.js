@@ -27,8 +27,8 @@ const TableModal = ({ setShowTableModal }) => {
 
 	const languageColors = {
 		AV: VISUAL_ARTS_COLOR,
-		D: DANCE_COLOR,
 		M: MUSIC_COLOR,
+		D: DANCE_COLOR,
 		T: THEATER_COLOR,
 	};
 

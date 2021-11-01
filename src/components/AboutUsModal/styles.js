@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
 	padding: 15px 60px 0;
-
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -42,6 +40,8 @@ export const AboutWrapper = styled.div`
 	}
 
 	span {
+		overflow: auto;
+		height: 260px;
 		font-weight: 300;
 		line-height: 22px;
 	}
@@ -52,7 +52,7 @@ export const CloseButton = styled.button`
 	background: white;
 	position: absolute;
 	top: 50px;
-	right: 65px;
+	right: 55px;
 	font-size: 24px;
 	color: green;
 	cursor: 'pointer';

@@ -40,7 +40,7 @@ Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,Santo Augusto,Santo A
 Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,Santo Angelo ,Santo Angelo ,-28.3000481,-54.2669971,1,,,,1,S
 Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,São Borja,São Borja,-28.6583,-56.0041,1,,,,1,S
 Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,São Vicente do Sul,São Vicente do Sul,-29.688161,-54.682643,1,,,,1,S
-Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,Uruguaiana,Uruguaiana,-29.8425284,-53.7680577,0,0,0,0,0,S
+Brazil,IF Farroupilha,IF Farroupilha,Rio Grande do Sul,Sul,Uruguaiana,Uruguaiana,-29.7717467,-57.1109429,0,0,0,0,0,S
 Brazil,IFSC,IF Santa Catarina,Santa Catarina,Sul,Ararangua,Ararangua,-28.9348832,-49.4858389,,,1,,1,S
 Brazil,IFSC,IF Santa Catarina,Santa Catarina,Sul,Canoinhas,Canoinhas,-26.176591,-50.395001,1,,,,1,S
 Brazil,IFSC,IF Santa Catarina,Santa Catarina,Sul,Cacador,Cacador,-26.77567,-51.0120041,1,,,,1,S
@@ -438,7 +438,7 @@ Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Penedo,Penedo,-10.2872341,-36.5819262,,1
 Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Piranhas,Piranhas,-9.6115579,-37.7616366,,,1,,1,S
 Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Rio Largo,Rio Largo,-9.477829,-35.839435,0,0,0,0,0,N
 Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Santana do Ipanema,Santana do Ipanema,-9.369989,-37.248018,1,,,,1,S
-Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,São Miguel dos Campos,São Miguel dos Campos,-9.7831115,-36.0967804,0,0,0,0,0,N
+Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,São Miguel dos Campos,São Miguel dos Campos,-9.7831115,-36.0967804,0,0,0,0,0,S
 Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Satuba,Satuba,-9.569113,-35.822697,,,2,,2,S
 Brazil,IFAL,IF Alagoas,Alagoas,Nordeste,Vicosa,Vicosa,-9.3728032,-36.2432636,,,1,,1,S
 Brazil,IFPE,IF Pernambuco,Pernambuco,Nordeste,Abreu e Lima,Abreu e Lima,-7.900719,-34.898389,,1,,,1,N
