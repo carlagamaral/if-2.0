@@ -8,7 +8,7 @@ const Chart = ({ colors, data }) => {
 	const newVariables = (length) => {
 		if (length > 20)
 			return setVariables({ width: 1950, thickRotation: 50, right: 50 });
-		return setVariables({ width: 750, thickRotation: 0, right: 0 });
+		return setVariables({ width: 830, thickRotation: 0, right: 0 });
 	};
 
 	useEffect(() => {
@@ -57,6 +57,7 @@ const Chart = ({ colors, data }) => {
 			labelTextColor="gray"
 			layout="vertical"
 			margin={{ bottom: 100, left: 140, right: variables.right, top: 20 }}
+			padding={0.15}
 			sortBy={data.key}
 			width={variables.width}
 		/>
